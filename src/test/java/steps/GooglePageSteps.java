@@ -34,6 +34,7 @@ public class GooglePageSteps {
 		WebElement searchBox = driver.findElement(By.name("q"));
 		searchBox.sendKeys("Java Tutorial");
 		searchBox.submit();
+		System.out.println("Github Pushed");
 		
 	   
 	}
